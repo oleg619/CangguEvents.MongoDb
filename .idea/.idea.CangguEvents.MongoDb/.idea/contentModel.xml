@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\Pet\CangguEvents.MongoDb" t="IncludeFlat">
+      <e p="CangguEvents.MongoDb" t="IncludeRecursive">
+        <e p="CangguEvents.MongoDb.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="CangguEvents.MongoDb.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Olehrechukh\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Olehrechukh\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Olehrechukh\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Olehrechukh\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Olehrechukh\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CangguEvents.MongoDb.906551446.00" t="ExcludeRecursive" />
+  </component>
+</project>
