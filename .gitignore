@@ -45,3 +45,4 @@ obj/
 /*.user
 /src/TelegramBot/CangguEvents.Webhook/logs
 /nuget-packages
+/.idea
