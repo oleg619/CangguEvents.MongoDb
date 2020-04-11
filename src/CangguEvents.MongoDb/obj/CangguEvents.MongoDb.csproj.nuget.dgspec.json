@@ -4,14 +4,14 @@
     "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\CangguEvents.Domain.csproj": {
-      "version": "1.0.0",
+    "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj": {
+      "version": "1.1.1",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\CangguEvents.Domain.csproj",
-        "projectName": "CangguEvents.Domain",
-        "projectPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\CangguEvents.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj",
+        "projectName": "CangguEvents.MongoDb",
+        "projectPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj",
         "packagesPath": "C:\\Users\\Olehrechukh\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,65 +40,6 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.1.20155.7\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj",
-        "projectName": "CangguEvents.MongoDb",
-        "projectPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\CangguEvents.MongoDb.csproj",
-        "packagesPath": "C:\\Users\\Olehrechukh\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.MongoDb\\src\\CangguEvents.MongoDb\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Olehrechukh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.1": {
-            "projectReferences": {
-              "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\CangguEvents.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Pet\\CangguEvents\\CangguEvents.Domain\\src\\CangguEvents.Domain\\CangguEvents.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.1": {
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -107,6 +48,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "CangguEvents.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
