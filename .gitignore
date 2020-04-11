@@ -46,3 +46,5 @@ obj/
 /src/TelegramBot/CangguEvents.Webhook/logs
 /nuget-packages
 /.idea
+/src/CangguEvents.MongoDb/bin
+/src/CangguEvents.MongoDb/obj
